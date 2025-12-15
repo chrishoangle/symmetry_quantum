@@ -1,8 +1,10 @@
 # Symmetry & Degeneracy in Quantum States
 
-Overview:
+## Overview
+
 Square -> Rectangle Deformation in 2D Infinite Potential Well
-This project demonstrates how geometric symmetry produces degeneracy in quantum energy spectra, and how breaking that symmetry lifts degeneracy, using the 2D infinite potential well. We will compare the energy levels of a square well ($L_x = L_y$) to a rectangular well ($Lx \neq Ly$) and understand how degenerate multiplets split as the aspect ratio $L_x/L_y$ varies.
+
+This project demonstrates how geometric symmetry produces degeneracy in quantum energy spectra, and how breaking that symmetry lifts degeneracy, using the 2D infinite potential well. We will compare the energy levels of a square well ($L_x = L_y$) to a rectangular well ($L_x \neq L_y$) and understand how degenerate multiplets split as the aspect ratio $L_x/L_y$ varies.
 
 The objective is to understand more about the fundamentals of symmetry in physics:
 - Symmetry (exchange symmetry $L_x = L_y$): degeneracy
@@ -49,15 +51,13 @@ $$
 
 
 The eigenfunctions are
-```math
-\psi_{n_x,n_y}(x,y)
-=
+
+$$\psi_{n_x,n_y}(x,y) =
 \sqrt{\frac{4}{L_x L_y}}
 \sin\left(\frac{n_x \pi x}{L_x}\right)
 \sin\left(\frac{n_y \pi y}{L_y}\right),
 \quad n_x, n_y \in \mathbb{N}.
-
-```
+$$
 
 ## What this code does
 - Computes the lowest $K$ energy levels for the 2D infinite well
