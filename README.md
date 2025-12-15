@@ -1,1 +1,64 @@
-# symmetry_quantum
+# Symmetry & Degeneracy in Quantum States
+
+Square -> Rectangle Deformation in 2D Infinite Potential Well
+
+Overview:
+This project demonstrates how geometric symmetry produces degeneracy in quantum energy spectra, and how breaking that symmetry lifts degeneracy, using the 2D infinite potential well. We will compare the energy levels of a square well ($L_x = L_y$) to a rectangular well ($Lx \neq Ly$) and understand how degenerate multiplets split as the aspect ratio $L_x/L_y$ varies.
+
+The objective is to understand more about the fundamentals of symmetry in physics:
+- Symmetry (exchange symmetry $L_x = L_y$): degeneracy
+- Symmetry breaking ($L_x \neq L_y$): degeneracy splitting
+
+## Physics Background
+
+### Energy Spectrum and Degeneracy
+
+The energy eigenvalues: 
+
+$$
+E_{n_x,n_y} = \frac{\pi^2 \hbar^2}{2m}
+\left(
+\frac{n_x^2}{L_x^2} + \frac{n_y^2}{L_y^2}
+\right)
+$$
+
+The energy of a square well:
+
+$E_{n_x,n_y} \propto n_x^2 + n_y^2$
+
+The energy for a rectangular well:
+
+$$
+E_{n_x,n_y} \propto 
+\left(
+\frac{n_x^2}{L_x^2} + \frac{n_y^2}{L_y^2}
+\right)
+$$
+
+
+### 2D Infinite Well Eigenstates
+
+For a paticle of mass $m$ in a 2D infinite well of side lengths $L_x, L_y$,
+
+$$
+V(x,y) =
+\begin{cases}
+0, & 0 < x < L_x,\; 0 < y < L_y \\
+\infty, & \text{otherwise}
+\end{cases}
+$$
+
+
+The eigenfunctions are
+```math
+\psi_{n_x,n_y}(x,y)
+=
+\sqrt{\frac{4}{L_x L_y}}
+\sin\left(\frac{n_x \pi x}{L_x}\right)
+\sin\left(\frac{n_y \pi y}{L_y}\right),
+\quad n_x, n_y \in \mathbb{N}.
+
+```
+
+## What this code does
+- Computes the lowest 
