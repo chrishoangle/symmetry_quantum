@@ -61,4 +61,22 @@ The eigenfunctions are
 ```
 
 ## What this code does
-- Computes the lowest 
+- Computes the lowest $K$ energy levels for the 2D infinite well
+- Detects degeneracy clusters (energies equal within a tolerance)
+- Sweeps aspect ratio $r = L_x / L_y$ and tracks splitting of previously degenerate levels.
+- Creates plots of
+  - energy level diagram (square vs. rectangle)
+  - degeneracy histogram
+  - splitting curves $E(r)$ for selected multiplets
+- Results:
+  - Square: $r = 1$
+    - Example: $E_{1,2} = E_{2,1}$
+  - Rectangle: $r \neq 1$
+    - Example: $E_{1,2} \neq E_{2,1}$
+  
+$$
+E_{1,2}(r) \propto \frac{1^2}{(r L_y)^2} + \frac{2^2}{L_y^2},
+\qquad
+E_{2,1}(r) \propto \frac{2^2}{(r L_y)^2} + \frac{1^2}{L_y^2}.
+$$
+
