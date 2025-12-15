@@ -1,4 +1,5 @@
 # Symmetry & Degeneracy in Quantum States
+<img align="right" width="280" height="220" src="/_includes/pic.jpg">
 
 Here is a link to my [code](https://colab.research.google.com/drive/1z8qYA28eLUI7AMXBuLH5bUqU3V3AYJ6c?usp=sharing)!
 
