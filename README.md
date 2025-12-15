@@ -1,8 +1,7 @@
 # Symmetry & Degeneracy in Quantum States
 
-Square -> Rectangle Deformation in 2D Infinite Potential Well
-
 Overview:
+Square -> Rectangle Deformation in 2D Infinite Potential Well
 This project demonstrates how geometric symmetry produces degeneracy in quantum energy spectra, and how breaking that symmetry lifts degeneracy, using the 2D infinite potential well. We will compare the energy levels of a square well ($L_x = L_y$) to a rectangular well ($Lx \neq Ly$) and understand how degenerate multiplets split as the aspect ratio $L_x/L_y$ varies.
 
 The objective is to understand more about the fundamentals of symmetry in physics:
