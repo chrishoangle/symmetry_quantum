@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/symmetry_quantum/static/css/main.43a476a5.css",
+    "main.js": "/symmetry_quantum/static/js/main.827a8823.js",
+    "index.html": "/symmetry_quantum/index.html",
+    "main.43a476a5.css.map": "/symmetry_quantum/static/css/main.43a476a5.css.map",
+    "main.827a8823.js.map": "/symmetry_quantum/static/js/main.827a8823.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43a476a5.css",
+    "static/js/main.827a8823.js"
+  ]
+}
