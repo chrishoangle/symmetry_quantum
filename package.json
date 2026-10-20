@@ -40,5 +40,6 @@
     "interactive visualization"
   ],
   "author": "Christopher Le",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "/symmetry_quantum"
 }
