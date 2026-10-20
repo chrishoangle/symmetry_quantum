@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/symmetry_quantum/static/css/main.43a476a5.css",
-    "main.js": "/symmetry_quantum/static/js/main.827a8823.js",
+    "main.css": "/symmetry_quantum/static/css/main.21254f9f.css",
+    "main.js": "/symmetry_quantum/static/js/main.1dd99e52.js",
     "index.html": "/symmetry_quantum/index.html",
-    "main.43a476a5.css.map": "/symmetry_quantum/static/css/main.43a476a5.css.map",
-    "main.827a8823.js.map": "/symmetry_quantum/static/js/main.827a8823.js.map"
+    "main.21254f9f.css.map": "/symmetry_quantum/static/css/main.21254f9f.css.map",
+    "main.1dd99e52.js.map": "/symmetry_quantum/static/js/main.1dd99e52.js.map"
   },
   "entrypoints": [
-    "static/css/main.43a476a5.css",
-    "static/js/main.827a8823.js"
+    "static/css/main.21254f9f.css",
+    "static/js/main.1dd99e52.js"
   ]
 }
